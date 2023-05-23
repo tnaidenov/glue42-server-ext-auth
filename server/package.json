@@ -1,0 +1,23 @@
+{
+  "name": "server-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "start": "npm run build && node compiled/index.js"
+  },
+  "author": "Kiril Popov",
+  "license": "ISC",
+  "homepage": "https://github.com/Glue42/server-example-custom-auth",
+  "dependencies": {
+    "@glue42/server": "^0.17.0",
+    "@glue42/server-api": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/lodash": "^4.14.194",
+    "@types/shortid": "^0.0.29",
+    "typescript": "^5.0.4"
+  }
+}

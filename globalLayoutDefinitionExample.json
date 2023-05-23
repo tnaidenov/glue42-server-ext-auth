@@ -1,0 +1,110 @@
+{
+  "type": "Global",
+  "name": "Global01",
+  "components": [
+    {
+      "application": "app01",
+      "type": "window",
+      "componentType": "application",
+      "state": {
+        "bounds": {
+          "left": 185,
+          "top": 195,
+          "width": 600,
+          "height": 600,
+          "right": 785,
+          "bottom": 795
+        },
+        "mode": "tab",
+        "windowState": "Normal",
+        "restoreState": "Normal",
+        "restoreSettings": {
+          "groupId": "12964_g_22_F106C413",
+          "groupZOrder": 0,
+          "groupDisplayId": 7669641
+        },
+        "channelId": "",
+        "allowChannels": false,
+        "isCollapsed": false,
+        "isSticky": true,
+        "tabGroupId": "0cda4cd5966a4dfd93863352f896ed65",
+        "tabIndex": -1,
+        "instanceId": "12964_22",
+        "createArgs": {
+          "parentInstanceId": "12964_1"
+        },
+        "parentInstanceId": "12964_1"
+      }
+    },
+    {
+      "application": "app03",
+      "type": "window",
+      "componentType": "application",
+      "state": {
+        "bounds": {
+          "left": 185,
+          "top": 195,
+          "width": 600,
+          "height": 600,
+          "right": 785,
+          "bottom": 795
+        },
+        "mode": "tab",
+        "windowState": "Normal",
+        "restoreState": "Normal",
+        "restoreSettings": {
+          "groupId": "12964_g_22_F106C413",
+          "groupZOrder": 0,
+          "groupDisplayId": 7669641
+        },
+        "channelId": "",
+        "allowChannels": false,
+        "isCollapsed": false,
+        "isSticky": true,
+        "tabGroupId": "0cda4cd5966a4dfd93863352f896ed65",
+        "tabIndex": 2,
+        "instanceId": "12964_23",
+        "createArgs": {
+          "parentInstanceId": "12964_1"
+        },
+        "parentInstanceId": "12964_1"
+      }
+    }
+  ],
+  "metadata": {},
+  "token": "HJhprJYSh",
+  "context": {},
+  "displays": [
+    {
+      "height": 1080,
+      "isPrimary": false,
+      "left": 1920,
+      "name": 1377176187,
+      "displayName": "DISPLAY1",
+      "scale": 1,
+      "top": 0,
+      "width": 1920,
+      "workingAreaHeight": 1050,
+      "workingAreaLeft": 1920,
+      "workingAreaTop": 0,
+      "workingAreaWidth": 1920,
+      "id": 0
+    },
+    {
+      "height": 1080,
+      "isPrimary": true,
+      "left": 0,
+      "name": 7669641,
+      "displayName": "DISPLAY2",
+      "scale": 1,
+      "top": 0,
+      "width": 1920,
+      "workingAreaHeight": 1019,
+      "workingAreaLeft": 0,
+      "workingAreaTop": 0,
+      "workingAreaWidth": 1920,
+      "id": 1
+    }
+  ],
+  "version": 2
+}

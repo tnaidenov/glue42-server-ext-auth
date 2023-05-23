@@ -1,0 +1,177 @@
+[
+  {
+    "title": "Application 01",
+    "caption": "",
+    "type": "window",
+    "name": "app01",
+    "icon": "",
+    "allowMultiple": true,
+    "autoStart": false,
+    "service": false,
+    "hidden": false,
+    "details": {
+      "url": "about:blank",
+      "title": "Application 01",
+      "mode": "tab",
+      "startLocation": "center",
+      "width": 600,
+      "height": 600
+    },
+    "customProperties": {
+      "includeInWorkspaces": true
+    }
+  },
+  {
+    "title": "Application 02",
+    "caption": "",
+    "type": "window",
+    "name": "app02",
+    "icon": "",
+    "allowMultiple": true,
+    "autoStart": false,
+    "service": false,
+    "hidden": false,
+    "details": {
+      "url": "about:blank",
+      "title": "Application 02",
+      "mode": "tab",
+      "startLocation": "center",
+      "width": 600,
+      "height": 600
+    },
+    "customProperties": {
+      "includeInWorkspaces": true
+    }
+  },
+  {
+    "title": "Application 03",
+    "caption": "",
+    "type": "window",
+    "name": "app03",
+    "icon": "",
+    "allowMultiple": true,
+    "autoStart": false,
+    "service": false,
+    "hidden": false,
+    "details": {
+      "url": "about:blank",
+      "title": "Application 03",
+      "mode": "tab",
+      "startLocation": "center",
+      "width": 600,
+      "height": 600
+    },
+    "customProperties": {
+      "includeInWorkspaces": true
+    }
+  },
+  {
+    "title": "Application 99",
+    "caption": "",
+    "type": "window",
+    "name": "app99",
+    "icon": "",
+    "allowMultiple": true,
+    "autoStart": false,
+    "service": false,
+    "hidden": false,
+    "details": {
+      "url": "https://www.glue42.com/",
+      "title": "Application 99",
+      "mode": "tab",
+      "startLocation": "center",
+      "width": 600,
+      "height": 600
+    },
+    "customProperties": {
+      "includeInWorkspaces": true
+    }
+  },  
+  {
+    "name": "workspacesAddApplication",
+    "title": "Workspaces add application",
+    "caption": "Sample caption",
+    "type": "window",
+    "autoStart": true,
+    "hidden": true,
+    "details": {
+      "autoInjectAPI": {
+        "enabled": false
+      },
+      "hasSizeAreas": true,
+      "hasMoveAreas": false,
+      "hidden": true,
+      "url": "file:///../assets/workspaces/add-application.html",
+      "mode": "html",
+      "width": 400,
+      "height": 400,
+      "allowClose": false,
+      "allowMaximize": false,
+      "allowMinimize": false
+    }
+  },
+  {
+    "name": "workspacesRestoreWorkspace",
+    "title": "Workspaces restore workspace",
+    "caption": "Sample caption",
+    "type": "window",
+    "autoStart": true,
+    "hidden": true,
+    "details": {
+      "autoInjectAPI": {
+        "enabled": false
+      },
+      "hasSizeAreas": true,
+      "hasMoveAreas": false,
+      "hidden": true,
+      "url": "file:///../assets/workspaces/restore-application-window.html",
+      "mode": "html",
+      "width": 400,
+      "height": 400,
+      "allowClose": false,
+      "allowMaximize": false,
+      "allowMinimize": false
+    }
+  },
+  {
+    "name": "workspacesSaveWorkspace",
+    "title": "Workspaces save workspace",
+    "caption": "Sample caption",
+    "type": "window",
+    "autoStart": true,
+    "hidden": true,
+    "details": {
+      "autoInjectAPI": {
+        "enabled": false
+      },
+      "hasSizeAreas": true,
+      "hasMoveAreas": false,
+      "hidden": true,
+      "url": "file:///../assets/workspaces/save-workspace.html",
+      "mode": "html",
+      "width": 400,
+      "height": 400,
+      "allowClose": false,
+      "allowMaximize": false,
+      "allowMinimize": false
+    }
+  },
+  {
+    "title": "Workspaces UI",
+    "type": "workspaces",
+    "name": "workspaces-demo",
+    "icon": "http://localhost:22080/resources/icons/workspaces.ico",
+    "details": {
+      "layout": {
+        "children": []
+      },
+      "addApplicationApp": "workspacesAddApplication",
+      "saveWorkspaceApp": "workspacesSaveWorkspace",
+      "restoreWorkspaceApp": "workspacesRestoreWorkspace"
+    },
+    "allowMultiple": true,
+    "customProperties": {
+      "appManagerOrder": 999
+    }
+  }
+]

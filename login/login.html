@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    div { font-family:Tahoma; font-size:12px; }
+  </style>
+</head>
+
+<body style="height:100vh">
+  <script>
+    function loginClick() {
+      const auth = {
+        user: document.getElementById("user").value,
+        token: document.getElementById("pass").value
+     }
+     glue42gd.authDone(auth)
+  }
+  </script>
+  <div style="height:100%; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+    <div>
+      User:<br />
+      <input id="user" />
+    </div>
+    <br />
+    <div>
+      Password:<br />
+      <input type="password" id="pass" />
+    </div>
+    <br />
+    <button onclick="loginClick()">Log in</button>
+  </div>
+</body>
+</html>
